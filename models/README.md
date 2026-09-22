@@ -9,8 +9,6 @@
 在项目根目录执行。下面的命令使用直连 Hugging Face，不使用代理：
 
 ```bash
-cd /data3/dengyongkang/my_project/AR_LLM_Token_Probability_Learning
-
 HF_ENDPOINT=https://huggingface.co bash tools/hfd.sh \
   openai-community/gpt2 \
   --include model.safetensors \
