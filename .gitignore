@@ -1,0 +1,26 @@
+# Python cache and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local model download metadata and optional exported tokenizer files
+models/**/.hfd/
+models/**/onnx/
+
+# Large model weights are intentionally kept out of this GitHub repository.
+# Download them locally when running the model-based experiments.
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.h5
+models/**/*.msgpack
+
+# Local experiment output and logs
+*.log
+outputs/
+checkpoints/
